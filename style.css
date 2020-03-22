@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 微軟正黑體;
+    box-sizing: border-box;
+}
+
+div {
+    height: 100vh;
+    background: skyblue;
+    line-height: 100vh;
+    font-size: 72px;
+    text-align: center;
+}
+
+div:nth-child(odd) {
+    background:green;
+}
+
+nav {
+   text-align: center; 
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 30px;
+    cursor: pointer;
+    color: skyblue;
+}
+
+
+#back-to-top {
+    width:50px;
+    height:50px;
+    line-height: 50px;
+    background: raba(0,0,0,0.5);
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+}
